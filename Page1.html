@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice</title>
+  <meta charset="UTF-8">
+<style>
+
+ body {
+      font-family: Arial, sans-serif;
+      background-color: gray;
+      padding: 50px;
+    }
+
+
+
+form{
+
+max-width:600px;
+margin:auto;
+background-color:white;
+padding:60px;
+border-radius:20px;
+box-shadow: 2px 5px gray;
+
+}
+
+h1{
+
+text-align:center;
+color:green;
+
+}
+
+
+label{
+display:block;
+margin-bottom:10px;
+font-weight:bold;
+
+}
+
+
+
+.input{
+width: 100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #1c1212;
+border-radius:5px;
+     
+    }
+
+.radio,.checkbox{
+margin-bottom:15px;
+
+}
+
+.radio label,
+.checkbox label {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+
+.submit-reset{
+
+width:48%;
+padding:10px;
+margin-top: 10px;
+border: none;
+border-radius:7px;
+color: white;
+cursor: pointer;
+
+}
+
+button {
+     background-color:#0056b3
+    }
+
+
+ #button1:hover {
+      background-color: green;
+    }
+
+#button2:hover {
+      background-color: red;
+    }
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<form>
+
+<h1>Registration Form</h1>
+
+  <div>
+    <label for="name">Name</label>
+    <input class="input" type="text" name="name" id="name" placeholder="Full Name">
+  </div><br>
+
+  <div>
+    <label for="father_name">Father's Name</label>
+    <input class="input" type="text" name="father_name" id="father_name" placeholder="Full Name">
+  </div><br>
+
+  <div>
+    <label for="mother_name">Mother's Name</label>
+    <input class="input" type="text" name="mother_name" id="mother_name" placeholder="Full Name">
+  </div><br>
+
+  <div>
+    <label for="roll">Roll</label>
+    <input class="input" type="number" name="roll" id="roll" placeholder="Roll">
+  </div><br>
+
+  <div>
+    <label  for="reg_number">Registration Number</label>
+    <input class="input" type="number" name="reg_number" id="reg_number" placeholder="Registration Number">
+  </div><br>
+
+  <div>
+    <label for="dob">Date of Birth</label>
+    <input class="input" type="date" name="dob" id="dob">
+  </div><br>
+
+  <div>
+    <label for="email">Email</label>
+    <input class="input" type="email" name="email" id="email" placeholder="Email">
+  </div><br>
+
+  <div>
+    <label for="password">Password</label>
+    <input class="input" type="password" name="password" id="password" placeholder="Password">
+  </div><br>
+
+<div>
+    <label for="phone">Phone Number</label>
+    <input class="input" type="tel" name="phone" id="phone" placeholder="Phone Number">
+  </div><br>
+
+
+
+  <div>
+    <label for="department">Department</label>
+    <select class="input" name="department" id="department">
+      
+<option value="none "> None </option>
+<option value="cse "> CSE </option>
+<option value="pharmacy "> Pharmacy </option>
+<option value=" ice"> ICE </option>
+<option value="acce "> ACCE </option>
+<option value="eee ">EEE  </option>
+<option value="mse "> MSE </option>
+<option value=" apm"> Aplied Math </option>
+<option value=" physics"> Physics </option>
+<option value="chemistry "> Chemistry  </option>
+<option value="math "> Mathmatics </option>
+<option value="botany "> Botany </option>
+<option value="zoology "> Zoology  </option>
+<option value="marketing "> Marketing </option>
+<option value="accounting "> Accounting </option>
+<option value=" finance"> Finance </option>
+<option value="economics "> Economics </option>
+<option value=" socialwork">Social Work  </option>
+<option value="is "> Islamic Studies </option>
+<option value=" banking">Banking  </option>
+<option value=" english"> English </option>
+<option value="bangla "> Bangla </option>
+<option value="law "> Law </option>
+    </select>
+  </div><br>
+
+  <div>
+    <label for="photo">Photo</label>
+    <input class="input" type="file" name="photo" id="photo">
+  </div><br>
+
+  <div class="radio">
+    <label>Gender</label><br>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="custom" value="custom">
+    <label for="custom">Custom</label>
+  </div><br>
+
+  <div class="checkbox">
+    <label class="checkbox">Marital Status</label><br>
+    <input type="checkbox" name="marital_status" id="married" value="married">
+    <label for="married">Married</label>
+    <input type="checkbox" name="marital_status" id="unmarried" value="unmarried">
+    <label for="unmarried">Unmarried</label>
+  </div><br>
+
+  <a href="Page2.html"" target="blank">
+
+  <button class="submit-reset" id="button1"  type="button">Register</button>
+</a>
+<button class="submit-reset" id="button2" type="button">Clear</button>
+
+</form>
+
+</body>
+</html>
